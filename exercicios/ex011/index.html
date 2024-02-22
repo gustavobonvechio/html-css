@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <style>
+        body
+        {
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir em vários dispositivos.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio-700.png" type="image/png">
+        <img src="imagens/grande-1000.png" alt="Imagem flexível">
+    </picture>
+    <h1>Vamos reproduzir Áudio</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/Laura-Quincas-Moreira.mp3" type="audio/mpeg">
+        <p>Seu navegador não tem compatibilidade com esse tipo de áudio <a href="midia/Laura-Quincas-Moreira.mp3>" download="Laura-Quincas-Moreira.mp3" type="audio/mpeg">Baixe o áudio aqui.</a></p>
+    </audio>
+</body>
+</html>
