@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "PT Sans Narrow", sans-serif;
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 130px;
+    font-size: 2em;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 50px 0px 0px 0px;
+    width: 425px;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 100px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+nav > p {
+    width: 425px;
+    margin: auto;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+section {
+    background-color: white;
+    width: 425px;
+    text-align: left;
+    margin: 80px 60px;
+    font-size: 1.8em;
+    line-height: 45px;
+}
+
+section#background1 {
+    padding: 80px 0px;
+    margin: 0px;
+    width: 100%;
+    box-shadow: inset 0px 0px 15px black;
+    background: white url(imagens/background001.jpg) no-repeat fixed center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#background2 {
+    padding: 80px 0px;
+    margin: 0px;
+    width: 100%;
+    box-shadow: inset 0px 0px 15px black;
+    background: white url(imagens/background002.jpg) no-repeat fixed center center;
+    background-size: cover;
+
+}
+
+section > p.background {
+    margin: 0px 60px;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer > p {
+    margin: auto;
+    width: 440px;
+}
+
+@media screen and (max-width: 501px) {
+    header {
+        width: 525px;
+    }
+    nav {
+        width: 525px;
+    }
+    section#background1 {
+        width: 525px;
+    }
+    section#background2 {
+        width: 525px;
+    }
+    footer {
+        width: 501px;
+    }
+}
