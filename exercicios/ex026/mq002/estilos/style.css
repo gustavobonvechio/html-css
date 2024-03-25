@@ -1,3 +1,24 @@
 @charset "UTF-8";
 
 /* Config gerais */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #233eff;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    text-shadow: 3px 3px 0px black;
+
+}
